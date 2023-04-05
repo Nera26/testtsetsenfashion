@@ -27,7 +27,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 20px;
     color: #798280;
 
@@ -36,7 +36,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 100%;
     color: #162320;
 }
@@ -47,7 +47,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 96px;
+    font-size: 5rem;
     line-height: 115%;;
     color: #162320;
 }
@@ -55,7 +55,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1rem;
     line-height: 150%;
     color: #162320;
     flex: none;
@@ -63,10 +63,11 @@ body{
     flex-grow: 0;
 }
 .about-us-left{
-    gap: 56px;
-    text-align: left;
-    
-    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left; 
+    margin-top: auto;
 }
 .about-us-section {
     display: flex;
@@ -74,9 +75,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  .about-us-left {
-    margin-top: auto; 
   }
   .about-us-right {
     position: relative;
@@ -86,12 +84,14 @@ body{
   }
   .about-us-right .img1{
     position: relative;
-    margin-top: -155px;
+    margin-top: -180px;
+    margin-right: 50px;
+    width: 70%;
   }
  .about-us-right .img2{
     position: relative;
     width: 300px;
     height: auto;
-    margin-top: -200px;
-    margin-left: 200px; 
+    margin-top: -150px;
+    margin-left: 300px; 
  }
