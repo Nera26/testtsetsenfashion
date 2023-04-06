@@ -9,9 +9,7 @@ body{
 .container-fluid{
     padding: 0 0 0 3%;
 }
-.other{
-    padding: 0 3% 0 0;
-}
+
 .navbar {
     background-color: #E5E5E5 !important;
     margin: 0;
@@ -40,10 +38,49 @@ body{
     line-height: 100%;
     color: #162320;
 }
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 62px;
+    border-radius: 0;
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 29px;
+    text-align: center;
+    color: #3B4744;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 100%;
+}
 
 
 /* About us */
-#About-us h1{
+.about-us-section {
+    background-image: url('./Images/about-us-background.jpg');
+    background-size: cover; 
+    align-items: left;
+    
+  }
+.about-us-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left; 
+    margin-left: 4%;
+    margin-right: 60%;
+    padding:15% 5% 8% 1%;
+    background-color: rgba(217, 217, 217, 0.25);
+   
+    
+    
+}
+.about-us-left h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -51,47 +88,77 @@ body{
     line-height: 115%;;
     color: #162320;
 }
-.about-us p{
+.about-us-left p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
     line-height: 150%;
     color: #162320;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
-.about-us-left{
+
+.about-us-button{
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-    text-align: left; 
-    margin-top: auto;
-}
-.about-us-section {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-  }
-  .about-us-right {
-    position: relative;
-    margin-right: 0;
-    padding-right: 0;
-    text-align: right;
-  }
-  .about-us-right .img1{
-    position: relative;
-    margin-top: -180px;
-    margin-right: 50px;
-    width: 70%;
-  }
- .about-us-right .img2{
-    position: relative;
-    width: 300px;
+    padding: 12px 32px;
+    background: #FFA800;
+    border-radius: 3px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3B4744;
+    width: 250px;
+    
+}
+
+ 
+
+ /* Collection */
+ #Collection{
+    background: #C9C9C9;
+    padding: 7% 5% 7% 5%;
+}
+
+ .collection-top{
+    padding: 0 0 5% 0;
+    text-align: left;
+ }
+ .collection-top h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 100%;
+    color: #162320;
+    margin-top: 0;
+ }
+ .collection-top p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 150%;
+    color: #162320;
+    align-self: stretch;
+ }
+ .collection-container{
+   
+    text-align: left; 
+ }
+ .collection-container img{
+    width: 400px;
     height: auto;
-    margin-top: -150px;
-    margin-left: 300px; 
+    padding-bottom: 20px;
+    
+ }
+
+ .collection-item{
+    padding: 0 10px 0 0;
  }
