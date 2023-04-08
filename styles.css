@@ -74,7 +74,7 @@ body{
     text-align: left; 
     margin-left: 4%;
     margin-right: 60%;
-    padding:15% 5% 8% 1%;
+    padding:15% 5% 13% 1%;
     background-color: rgba(217, 217, 217, 0.25);
    
     
@@ -84,7 +84,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 115%;;
     color: #162320;
 }
@@ -123,7 +123,9 @@ body{
  /* Collection */
  #Collection{
     background: #C9C9C9;
-    padding: 7% 5% 7% 5%;
+    padding: 7% 5% 10% 5%;
+    
+
 }
 
  .collection-top{
@@ -149,16 +151,121 @@ body{
     align-self: stretch;
  }
  .collection-container{
-   
     text-align: left; 
- }
- .collection-container img{
-    width: 400px;
-    height: auto;
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     
  }
+ .collection-item {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .collection-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .collection-item h5{
+     text-align: left;
+        margin: 10px 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 150%;
+        color: #162320;
+  }
+  .collection-item p {
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #162320;
+    
+  }
+  
 
- .collection-item{
-    padding: 0 10px 0 0;
+
+ 
+/* News */
+.news-carousel{
+    margin-top: -5%;
+}
+  .news-container{
+    padding: 0 5% 5% 5%;
+}
+
+  .news-carousel img{
+     width: 450px !important;
+     height: auto !important;
+     
+    }
+     
+  .star-rating {
+    color: #162320;
+    font-size: 0.8remx;
+  }
+  .news-title{
+    padding-top: 10%;
+  }
+  .news-title h1{
+    padding-top: 5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 150%;
+    color: #162320;
+  }
+  .news-button{
+    padding-top: 5%;
+    width: 300px;
+   
+}
+.news-button button{
+    color: #162320;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #162320;
+}
+
+
+/* footer */
+ #footer{
+    padding: 3% 5% 3% 5%;
+    background-color: #C9C9C9;
+ }
+ .footer-container h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container .fa-brands{
+   
+        font-size: 20px; 
+        color: #798280; 
+        padding: 0 5%;
+      
+ }
+ .footer-right h3{
+    padding: 5%;
  }
