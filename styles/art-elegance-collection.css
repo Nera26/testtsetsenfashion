@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none; /* Disable text selection for Safari */
+    -moz-user-select: none; /* Disable text selection for Firefox */
+    -ms-user-select: none; /* Disable text selection for Internet Explorer */
+    user-select: none; /* Disable text selection for other browsers */
+
+}
+a {
+  text-decoration: none;
+}
+/* Navigation */
+.container-fluid{
+    padding: 0 0 0 3%;
+}
+.navbar-logo{
+    height: 40px;
+}
+
+.navbar {
+    background-color: #E5E5E5 !important;
+    margin: 0;
+    
+  }
+.dropdown-menu{
+    background-color: #E5E5E5;
+}
+
+
+.navbar-nav li {
+    padding: 0 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: #798280;
+
+  }
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    color: #162320;
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 62px;
+    border-radius: 0;
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 29px;
+    text-align: center;
+    color: #3B4744;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 100%;
+}
+.collection-bottom{
+    padding: 2% 5% 5% 6.5%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    transform: translateY(-50%);
+    text-align: left;
+    width: 100%;
+  }
+  
+  .carousel-caption h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 115%;
+    color: #E5E5E5;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+  }
+  
+
+.collection-bottom p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #162320;
+    text-align: justify;
+}
+
+.collection-bottom img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+.collection-bottom h3{
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #162320;
+}
+.collection-male{
+    padding-top: 3%;
+}
+/* footer */
+#footer{
+    padding: 3% 5% 3% 5%;
+    background-color: #C9C9C9;
+ }
+ .footer-container h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container .fa-brands{
+   
+        font-size: 20px; 
+        color: #798280; 
+        padding: 0 5%;
+      
+ }
+ .footer-right h3{
+    padding: 5%;
+ }
+ .container {
+    display: flex;
+    justify-content: center; /* center the reserved div horizontally */
+    align-items: center; /* center the reserved div vertically */
+  
+  }
+  
+  .reserved {
+    display: flex;
+    justify-content: center; /* center the i and p elements horizontally */
+    align-items: center; /* center the i and p elements vertically */
+    margin-top: 20px; /* add some space at the top */
+  }
+  
+  .reserved i {
+    height: 20px;
+    line-height: 20px; /* same as the height */
+    margin-right: 10px; /* add some space between the i and p elements */
+  }
+  
+  .reserved p {
+    margin: 0; /* remove default margin */
+    line-height: 20px; /* same as the height of the i element */
+  }
+
+ @media (max-width: 767px) {
+    h1{
+        text-align: center;
+    }
+
+    #footer .row {
+        text-align: center;
+      }
+      #footer .col-lg-3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+   
+  }

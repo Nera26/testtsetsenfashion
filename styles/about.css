@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none; /* Disable text selection for Safari */
+    -moz-user-select: none; /* Disable text selection for Firefox */
+    -ms-user-select: none; /* Disable text selection for Internet Explorer */
+    user-select: none; /* Disable text selection for other browsers */
+}
+/* Navigation */
+.container-fluid{
+    padding: 0 0 0 3%;
+}
+.navbar-logo{
+    height: 40px;
+}
+
+.navbar {
+    background-color: #E5E5E5 !important;
+    margin: 0;
+    
+  }
+.dropdown-menu{
+    background-color: #E5E5E5;
+}
+
+
+.navbar-nav li {
+    padding: 0 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: #798280;
+
+  }
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    color: #162320;
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 62px;
+    border-radius: 0;
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 29px;
+    text-align: center;
+    color: #3B4744;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 100%;
+}
+/* Content top */
+
+#Content-About-Us{
+    padding: 2% 5% 5% 6.5%;
+}
+#Content-About-Us p{
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #162320;
+    
+}
+.about-us-p{
+    
+    text-align: justify;
+}
+.about-activities div {
+    display: flex;
+    align-items: center;
+  }
+  .about-activities p {
+    margin-bottom: -3px;
+    margin-left: 5px;
+    
+  }
+#Content-About-Us h1{
+    color: #162320;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 100%;
+    padding-bottom: 2%;
+
+}
+#Content-About-Us h5{
+    color: #162320;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 100%;
+}
+.about-activities-row{
+    padding-top: 1%;
+}
+
+
+
+.about-activities{
+    padding: 0% 0% 0% 5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.first-designer{
+     background-color: #C9C9C9;
+}
+.designer-padding{
+    padding: 7% 5% 5% 6.5%;
+}
+#designer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+    
+  }
+#designer h1{
+    color: #162320;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 100%;
+    padding-bottom: 2%;
+  }
+#designer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #162320;
+    text-align: justify;
+    
+
+}
+.design-item-1{
+    padding-top: 1%;
+}
+/* footer */
+#footer{
+    padding: 3% 5% 3% 5%;
+    background-color: #C9C9C9;
+ }
+ .footer-container h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: #798280;
+ }
+ .footer-container .fa-brands{
+   
+        font-size: 20px; 
+        color: #798280; 
+        padding: 0 5%;
+      
+ }
+ .footer-right h3{
+    padding: 5%;
+ }
+ .container {
+    display: flex;
+    justify-content: center; /* center the reserved div horizontally */
+    align-items: center; /* center the reserved div vertically */
+  
+  }
+  
+  .reserved {
+    display: flex;
+    justify-content: center; /* center the i and p elements horizontally */
+    align-items: center; /* center the i and p elements vertically */
+    margin-top: 20px; /* add some space at the top */
+  }
+  
+  .reserved i {
+    height: 20px;
+    line-height: 20px; /* same as the height */
+    margin-right: 10px; /* add some space between the i and p elements */
+  }
+  
+  .reserved p {
+    margin: 0; /* remove default margin */
+    line-height: 20px; /* same as the height of the i element */
+  }
+
+ @media (max-width: 767px) {
+    h1{
+        text-align: center;
+    }
+
+    #footer .row {
+        text-align: center;
+      }
+      #footer .col-lg-3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+  }
